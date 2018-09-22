@@ -1,0 +1,61 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*화면 전환 트랜지션*/
+.detail-page {
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100vh;
+    background-color: #03a9f4;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.detail-page .transition-appear {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+}
+
+.detail-page .transition-appear.transition-appear-active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+.detail-page .transition-leave {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.detail-page .transition-leave.transition-leave-active {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+}
