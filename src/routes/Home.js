@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import profile from "../contents/home.jpg";
 import "routes/Home.css";
 
 class Home extends Component {
@@ -13,10 +14,7 @@ class Home extends Component {
                     <header>
                         {/*<!-- here’s the avatar -->*/}
                         <a>
-                            <img
-                                src="https://scontent-hkg3-2.cdninstagram.com/vp/e3536444f2349eac62aa124e089ea7e8/5BF3731B/t51.2885-19/s150x150/17438347_1355909897801798_3606481963981996032_a.jpg?_nc_eui2=AeHtXDWP3ivRLTUyN5dwLG5RADdUg3WmfbLD2N6zmZCc2QAPXrAfg18uKY3WmZ60YJOuNKdwJ-qITA19bDYeGx6fyilAHLFER8vIevv6oLFKAQ"
-                                className="hoverZoomLink"
-                            />
+                            <img src={profile} className="hoverZoomLink" />
                         </a>
 
                         {/*<!-- the username -->*/}
