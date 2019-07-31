@@ -9,7 +9,7 @@ import PersonIcon from "@material-ui/icons/Person";
 import HomeIcon from "@material-ui/icons/Home";
 import MailIcon from "@material-ui/icons/Mail";
 
-import "components/BottomNavigation.css";
+import "./BottomNavigation.css";
 
 const styles = {
     root: {

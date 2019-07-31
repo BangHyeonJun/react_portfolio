@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import profile from "../contents/home.jpg";
-import "routes/Home.css";
+import "./Home.css";
 
 class Home extends Component {
     shouldComponentUpdate() {

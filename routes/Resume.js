@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import Typography from "@material-ui/core/Typography";
-import portfolioImage from "contents/portfolio1.png";
-import resumeImage from "contents/portfolio2.png";
-import resumeFile from "contents/resume.pdf";
-import portfolioFile from "contents/Portfolio.pdf";
+import portfolioImage from "../contents/portfolio1.png";
+import resumeImage from "../contents/portfolio2.png";
+import resumeFile from "../contents/resume.pdf";
+import portfolioFile from "../contents/Portfolio.pdf";
 
 const styles = theme => ({
     root: {

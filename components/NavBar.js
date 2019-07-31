@@ -3,7 +3,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Headroom from "react-headroom";
-import "components/NavBar.css";
+import "./NavBar.css";
 
 class NavBar extends Component {
     render() {

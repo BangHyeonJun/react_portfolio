@@ -7,8 +7,8 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
-import project1 from "contents/project1.png";
-import project2 from "contents/project2.png";
+import project1 from "../contents/project1.png";
+import project2 from "../contents/project2.png";
 
 const styles = theme => ({
     card: {
